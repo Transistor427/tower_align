@@ -48,6 +48,15 @@ cd ~ && git clone https://github.com/Transistor427/tower_aling -b dev | cd ~/tow
 
 Выбираем материалы печати, которыми будет печататься тест.
 
+Настраиваем печать:
+
+Устанавливаем шаблон заполнения верхней поверхности "Прямолинейный":
+<img width="1019" height="224" alt="изображение" src="https://github.com/user-attachments/assets/6140f6c3-8067-42c0-83fc-3f56c90bf8a0" />
+
+Устанавливаем параметры "Угол разреженного заполнения" и "Угол сплошного заполнения" в 0:
+<img width="1002" height="811" alt="изображение" src="https://github.com/user-attachments/assets/90ccaf66-e608-469b-b3a5-cb44e7629e30" />
+
+
 Нарезаем файл и сохраняем его на принтер
 <img width="1211" height="1371" alt="изображение" src="https://github.com/user-attachments/assets/4e803e28-1bfc-4838-83be-956ef10773da" />
 
