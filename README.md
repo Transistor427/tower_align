@@ -4,12 +4,12 @@
 ## Установка
 ### Шаг 1. SSH
 ```bash
-cd ~ && git clone https://github.com/Transistor427/tower_aling -b dev | cd ~/tower_aling && sudo service klipper stop && ln -s ~/tower_aling/tower_aling.py ~/klipper/klippy/extras && ln -s ~/tower_aling/tower_aling.cfg ~/printer_dara/config/klipper-config | sudo service klipper start
+cd ~ && git clone https://github.com/Transistor427/tower_align -b dev | cd ~/tower_align && sudo service klipper stop && ln -s ~/tower_align/tower_align.py ~/klipper/klippy/extras/tower_align.py && ln -s ~/tower_align/tower_align.cfg ~/printer_data/config/klipper-config/tower_align.cfg | sudo service klipper start
 ```
 ### Шаг 2. Веб-интерфейс
 Открываем файл printer.cfg и добавляем в начало строчку:
 ```
-[include klipper-config/tower_aling.cfg]
+[include klipper-config/tower_align.cfg]
 ```
 Сохраняем изменения нажав кнопку "Сохранить и перезапустить" в верхнем правом углу
 
