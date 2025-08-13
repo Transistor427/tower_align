@@ -1,4 +1,4 @@
-<img width="1219" height="406" alt="изображение" src="https://github.com/user-attachments/assets/c33d6873-c45a-42f9-bf77-57b4c7990110" /># tower_align
+# tower_align
 Расширение для Klipper, предназначенное для выполнения автокалибровки офсетов X и Y для двухголовых принтеров (Dual).
 
 ## Установка
