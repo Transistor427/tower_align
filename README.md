@@ -65,9 +65,10 @@ cd ~ && git clone https://github.com/Transistor427/tower_align -b dev | cd ~/tow
 Комментируем строчку и добавляем перед ней или после нее команду "TOWER_ALIGN". Должно получится примерно как на фото:
 <img width="1219" height="406" alt="изображение" src="https://github.com/user-attachments/assets/b8435ca6-f2a3-4849-9484-f6d8a4373c7e" />
 
-
-
-
+## Обновление
+```
+cd ~/tower_align/ && git reset --hard | git pull && sudo service klipper stop && rm ~/klipper/klippy/extras/tower_align.py && ln -s ~/tower_align/tower_align.py ~/klipper/klippy/extras/tower_align.py && cp ~/tower_align/tower_align.cfg ~/printer_data/config/klipper-config/tower_align.cfg | sudo service klipper start
+```
 
 
 
