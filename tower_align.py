@@ -66,9 +66,10 @@ class TowerAlign:
     def cmd_TOWER_ALIGN(self, gcmd):
         # Охлаждение экструдера перед измерениями
         gcmd.respond_info("Preparing for measurements...")
+        self.gcode.run_script_from_command("PREPARE_TOOLHEAD")
         gcmd.respond_info("Cooling down extruders to safe temperature")
-        self.gcode.run_script_from_command("G1 X0 Y0 F6000")
-        self.gcode.run_script_from_command("G1 Z0 F6000")
+        # self.gcode.run_script_from_command("G1 X0 Y0 F6000")
+        # self.gcode.run_script_from_command("G1 Z0 F6000")
         # Выключение нагревателей
         self.gcode.run_script_from_command("TURN_OFF_HEATERS")
         self.gcode.run_script_from_command("M106 S255")
